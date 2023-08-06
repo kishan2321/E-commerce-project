@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto+Slab:wght@300&family=Source+Serif+Pro:ital@1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    min-height: calc(100vh - 8vh - 10vh);
+}
+.slider{
+    width: 80vw;
+    margin: 12px auto;
+    overflow: hidden;
+}
+.card{
+    font-family: 'Source Serif Pro', serif;
+    width: 90vw;
+    margin-left: 55px;
+}
+.cards{
+    display: flex;
+    overflow:hidden;
+}
+.card-items{
+    display:inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
